@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib. pyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from sklearn.model_selection import train_test_split
@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 
-df = pd.read_csv("atp_data_OR.csv")
+df = pd.read_csv(r"C:\Users\Al kubaisi Mehdi\Desktop\DATASCIENTEST\Projetnov23DA\atp_data_OR.csv")
 
 st.sidebar.title("Sommaire")
 pages = ["Projet","Exploration des données", "Visualisation des données", "Machine Learning","Résultats","Simulation", "Les auteurs"]
