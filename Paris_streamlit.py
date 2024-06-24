@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 
-df = pd.read_csv(r"C:\Users\Al kubaisi Mehdi\Desktop\DATASCIENTEST\Projetnov23DA\atp_data_OR.csv")
+df = pd.read_csv("atp_data_OR.csv")
 
 st.sidebar.title("Sommaire")
 pages = ["Projet","Exploration des données", "Visualisation des données", "Machine Learning","Résultats","Simulation", "Les auteurs"]
